@@ -27,7 +27,7 @@ const About = () => {
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Connections</h5>
-                            <small>200+ Connections</small>
+                            <small>100+ Connections</small>
                         </article>
                         <article className='about__card'>
                             <AiOutlineFolder className='about__icon' />
@@ -38,7 +38,7 @@ const About = () => {
 
 
                     <p>
-                        I am a Backend Developer with 2+ years experience
+                        I am a Backend Developer with 2+ years experience focusing more on Building REST API using laravel as my main framework.
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
