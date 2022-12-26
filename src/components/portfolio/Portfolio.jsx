@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG1 from '../../assets/BPK.jpg'
+import IMG2 from '../../assets/smartpoint.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
@@ -12,67 +12,44 @@ const data = [
     {
         id: 1,
         image: IMG1,
-        title: 'This is a title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        title: 'BPK RI',
+        dsecription: 'Wordpress developer',
+        web: 'https://www.bpk.go.id/',
+        date: 'June 2021 - August 2021'
     },
     {
         id: 2,
         image: IMG2,
-        title: 'This is a title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        title: 'Smartpoint 369',
+        dsecription: 'Backend Developer',
+        web: 'https://www.smartpoint-369.com',
+        date: 'September 2022 - August 2022'
     },
-    {
-        id: 3,
-        image: IMG3,
-        title: 'This is a title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
-    },
-    {
-        id: 4,
-        image: IMG4,
-        title: 'This is a title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
-    },
-    {
-        id: 5,
-        image: IMG5,
-        title: 'This is a title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
-    },
-    {
-        id: 6,
-        image: IMG6,
-        title: 'This is a title',
-        github: 'https://github.com',
-        demo: 'https://github.com'
-    },
+
 ]
 
 function Portfolio() {
     return (
         <section id='portfolio'>
-            <h5>My Recent Work</h5>
+            <h5>My Work History</h5>
             <h2>Portfolio</h2>
 
             <div className="container portfolio__container">
                 {
-                    data.map(({ id, image, title, github, demo }) => {
+                    data.map(({ id, image, title, dsecription, web, date }) => {
                         return (
                             <article key={id} className="portfolio__item">
                                 <div className="portfolio__item-image">
                                     <img src={image} alt={title} />
 
                                 </div>
+
                                 <h3>{title}</h3>
+                                <p className='description'>{dsecription}</p>
+                                <p className='date'>{date}</p>
                                 <div className="portfolio__item-cta">
 
-                                    <a href={github} className='btn'>Github</a>
-                                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                                    <a href={web} className='btn btn-primary' target='_blank'>Go to Web</a>
                                 </div>
                             </article>
                         )
