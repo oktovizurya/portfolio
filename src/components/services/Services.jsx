@@ -15,23 +15,20 @@ function Services() {
                     <ul className="service__list">
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p></p>
+                            <p>Design software from scratch.</p>
                         </li>
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Scalable system design for future needs.</p>
+                        </li>
+
+                        <li>
+                            <BsCheck2 className='service__list-icon' />
+                            <p>Documentation of the software for Frontend or Backend.</p>
                         </li>
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Database optimization.</p>
                         </li>
 
                     </ul>
@@ -43,56 +40,49 @@ function Services() {
                     <ul className="service__list">
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Develop web app for your company</p>
                         </li>
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Highly optimize for the users need.</p>
                         </li>
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Chat beetwen users.</p>
                         </li>
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Executing payment using digital wallet.</p>
                         </li>
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Inventory management and point of sales.</p>
                         </li>
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Company profile website</p>
                         </li>
 
                     </ul>
                 </article>
                 <article className='service'>
                     <div className="service__head">
-                        <h3>Content Creation</h3>
+                        <h3>Server Deployment</h3>
                     </div>
                     <ul className="service__list">
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Deploy application</p>
                         </li>
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Server debugging</p>
                         </li>
                         <li>
                             <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                            <p>Dockerizing application</p>
                         </li>
-                        <li>
-                            <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                        </li>
-                        <li>
-                            <BsCheck2 className='service__list-icon' />
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                        </li>
+
 
                     </ul>
                 </article>
