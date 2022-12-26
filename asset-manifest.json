@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9b02b9eb.css",
-    "main.js": "/portfolio/static/js/main.f5cef060.js",
+    "main.css": "/portfolio/static/css/main.24a60c6c.css",
+    "main.js": "/portfolio/static/js/main.54058b85.js",
     "static/media/okto-about-me.png": "/portfolio/static/media/okto-about-me.9b86e65e28c9aa87b149.png",
     "static/media/okto.png": "/portfolio/static/media/okto.9ab1903f170879af025f.png",
     "static/media/portfolio5.png": "/portfolio/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
@@ -10,13 +10,13 @@
     "static/media/portfolio6.jpg": "/portfolio/static/media/portfolio6.72d1107e313049cf15a7.jpg",
     "static/media/portfolio3.jpg": "/portfolio/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "static/media/portfolio4.jpg": "/portfolio/static/media/portfolio4.6bf60cbb8fe5f7d7af5d.jpg",
-    "static/media/smartpoint.jpg": "/portfolio/static/media/smartpoint.7e5a71e5fa65644de7de.jpg",
+    "static/media/smartpoint.png": "/portfolio/static/media/smartpoint.c827853f0811c702de27.png",
     "index.html": "/portfolio/index.html",
-    "main.9b02b9eb.css.map": "/portfolio/static/css/main.9b02b9eb.css.map",
-    "main.f5cef060.js.map": "/portfolio/static/js/main.f5cef060.js.map"
+    "main.24a60c6c.css.map": "/portfolio/static/css/main.24a60c6c.css.map",
+    "main.54058b85.js.map": "/portfolio/static/js/main.54058b85.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b02b9eb.css",
-    "static/js/main.f5cef060.js"
+    "static/css/main.24a60c6c.css",
+    "static/js/main.54058b85.js"
   ]
 }
