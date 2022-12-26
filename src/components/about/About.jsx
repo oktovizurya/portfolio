@@ -38,7 +38,7 @@ const About = () => {
 
 
                     <p>
-                        I am a Backend Developer with 2+ years experience focusing more on Building REST API using laravel as my main framework.
+                        I am a Backend Developer with 2+ years experience focusing more on Building REST API using laravel as my main framework. As a I prefered to work on Backend side of the project, I'm still experienced and comfortable in developing frontend and setting up infrastructure.
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
